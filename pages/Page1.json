@@ -446,7 +446,7 @@
               "boxShadow": "NONE",
               "widgetName": "IconButton1",
               "onClick": "{{Query2_wo_limit.run()}}",
-              "buttonColor": "#F86A2B",
+              "buttonColor": "#03b365",
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634a.svg",
               "topRow": 12,
