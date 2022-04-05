@@ -234,9 +234,7 @@
                 "customerName",
                 "assignedTo",
                 "remarks",
-                "status",
-                "customColumn1",
-                "customColumn2"
+                "status"
               ],
               "isVisibleDownload": true,
               "dynamicPropertyPathList": [],
@@ -274,12 +272,6 @@
                 },
                 {
                   "key": "primaryColumns.remarks.computedValue"
-                },
-                {
-                  "key": "derivedColumns.customColumn1.computedValue"
-                },
-                {
-                  "key": "primaryColumns.customColumn1.computedValue"
                 }
               ],
               "leftColumn": 3,
@@ -334,44 +326,6 @@
                   "isDerived": false,
                   "label": "dueDate",
                   "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow.dueDate))}}"
-                },
-                "customColumn1": {
-                  "index": 8,
-                  "width": 150,
-                  "id": "customColumn1",
-                  "columnType": "text",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": true,
-                  "label": "customString",
-                  "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow._id+\"xyz\"))}}",
-                  "buttonStyle": "rgb(3, 179, 101)",
-                  "buttonLabelColor": "#FFFFFF",
-                  "buttonColor": "#03B365",
-                  "menuColor": "#03B365",
-                  "labelColor": "#FFFFFF"
-                },
-                "customColumn2": {
-                  "index": 9,
-                  "width": 150,
-                  "id": "customColumn2",
-                  "columnType": "text",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": true,
-                  "label": "customColumn2",
-                  "computedValue": "",
-                  "buttonStyle": "rgb(3, 179, 101)",
-                  "buttonLabelColor": "#FFFFFF",
-                  "buttonColor": "#03B365",
-                  "menuColor": "#03B365",
-                  "labelColor": "#FFFFFF"
                 },
                 "category": {
                   "index": 3,
@@ -460,46 +414,7 @@
               },
               "delimiter": ",",
               "key": "dqdma654uj",
-              "derivedColumns": {
-                "customColumn1": {
-                  "index": 8,
-                  "width": 150,
-                  "id": "customColumn1",
-                  "columnType": "text",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": true,
-                  "label": "customString",
-                  "computedValue": "{{Table2.sanitizedTableData.map((currentRow) => ( currentRow._id+\"xyz\"))}}",
-                  "buttonStyle": "rgb(3, 179, 101)",
-                  "buttonLabelColor": "#FFFFFF",
-                  "buttonColor": "#03B365",
-                  "menuColor": "#03B365",
-                  "labelColor": "#FFFFFF"
-                },
-                "customColumn2": {
-                  "index": 9,
-                  "width": 150,
-                  "id": "customColumn2",
-                  "columnType": "text",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": true,
-                  "label": "customColumn2",
-                  "computedValue": "",
-                  "buttonStyle": "rgb(3, 179, 101)",
-                  "buttonLabelColor": "#FFFFFF",
-                  "buttonColor": "#03B365",
-                  "menuColor": "#03B365",
-                  "labelColor": "#FFFFFF"
-                }
-              },
+              "derivedColumns": {},
               "rightColumn": 52,
               "textSize": "PARAGRAPH",
               "widgetId": "pz1ic6a4er",
