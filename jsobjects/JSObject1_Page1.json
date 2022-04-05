@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\t\treturn Query2_wo_limit.data;\n\t},\n\tasync myFun2 () {\n\t\tconst data = await Query2.run();\n\t\treturn data;\n\t}\n}",
+    "variables": []
+  },
+  "id": "Page1_JSObject1",
+  "deleted": false,
+  "gitSyncId": "61b97d281f4a0a565c02635b_620cd6746b4b1e154a3c3d04"
+}
